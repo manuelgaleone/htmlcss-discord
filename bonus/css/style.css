@@ -194,7 +194,17 @@ header {
     height: 700px;
     background-color: white;
     display: flex;
+    
+}
 
+#voice-wave {
+    opacity: 0.1;
+}
+
+#fandom-wave {
+    opacity: 0.1;
+    transform: rotate(180deg);
+    margin-top: -4.5px;
 }
 
 #voice-photo {
