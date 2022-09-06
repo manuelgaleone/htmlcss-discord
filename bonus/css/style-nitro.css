@@ -26,6 +26,14 @@ header {
 
 }
 
+#menu:hover {
+    text-decoration: underline;
+  }
+
+#accedi:hover {
+    box-shadow: 0 0 5px white;
+}
+
 #accedi {
     width: 100px;
     height: 35px;
@@ -77,4 +85,46 @@ header {
 .col-9 {
     width: calc(100% / 12 * 9);
 
+}
+
+/*Cover*/
+.cover {
+    background-image: url(../img/cover-back.jpg);
+    height: 800px;
+}
+
+.nitro-1-pad {
+    padding: 150px;
+}
+
+.nitro-1-caption {
+    color: white;
+    padding-top: 30px;
+}
+
+.nitro-1-buttons {
+    padding-top: 30px;
+    vertical-align: middle;
+}
+
+#usd-year {
+    border: none;
+    background-color: rgb(22, 11, 37);
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 23px;
+    vertical-align: middle;
+}
+
+#usd-month {
+    border: none;
+    background-color: rgb(22, 11, 37);
+    color: white;
+    width: 230px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 18px;
+    vertical-align: middle;
 }
