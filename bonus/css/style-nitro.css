@@ -288,3 +288,25 @@ header {
     font-size: 18px;
     vertical-align: middle;
 }
+
+/*Head Footer*/
+.head-footer {
+    height: 600px;
+    background-image: url(../img/blue-gradient.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#discord-logo {
+    margin-top: 150px;
+}
+
+.head-footer-para {
+    color: white;
+    margin-top: 25px;
+}
+
+.head-footer-pad {
+    padding-bottom: 50px;
+}
