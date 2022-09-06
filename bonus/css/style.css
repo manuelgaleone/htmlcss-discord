@@ -333,3 +333,9 @@ footer {
 .right {
     text-align: right;
 }
+
+.white {
+    color: white;
+    margin-top: 10px;
+    width: 30px;
+}
