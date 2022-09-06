@@ -1,0 +1,335 @@
+/*General Settings*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.margin {
+    margin: auto;
+}
+
+/*Header*/
+header {
+    margin:auto;
+    background-color: transparent;
+    height: 50px;
+    padding-top: 45px;
+}
+
+#menu {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 17px;
+
+}
+
+#accedi {
+    width: 80px;
+    height: 35px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    margin-left: 200px;
+    
+}
+
+/*Rows and Columns*/
+.row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+
+}
+
+.col-1 {
+    width: calc(100% / 12 * 1);
+
+}
+
+.col-2 {
+    width: calc(100% / 12 * 2);
+
+}
+
+.col-3 {
+    width: calc(100% / 12 * 3);
+
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
+
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
+
+}
+
+.col-9 {
+    width: calc(100% / 12 * 9);
+
+}
+
+/*Cover*/
+.cover {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    padding-top: 100px;
+    margin-top: -55px;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cov-caption {
+    width: 700px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.main-title {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.main-caption {
+    font-size: 17px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.buttons {
+    text-align: center;
+    
+}
+
+#scarica-mac {
+    width: 200px;
+    height: 45px;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#apri-discord {
+    width: 300px;
+    height: 45px;
+    border: none;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+/*Organization*/
+.organization {
+    height: 700px;
+    background-color: white;
+    display: flex;
+
+}
+
+.org-caption {
+    margin-left: -200px;
+
+}
+
+#org-photo {
+    margin-left: 125px;
+
+}
+
+.org-title {
+    padding-top: 26px;
+    font-size: 40px;
+    
+}
+
+.org-para {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+/*Voice*/
+.voice {
+    height: 700px;
+    background-color: white;
+    display: flex;
+
+}
+
+#voice-photo {
+    margin-left: 125px;
+
+}
+
+.voice-title {
+    padding-top: 26px;
+    font-size: 40px;
+    
+}
+
+.voice-para {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+/*Fandom*/
+.fandom {
+    height: 700px;
+    background-color: white;
+    display: flex;
+
+}
+
+#fandom-photo {
+    margin-left: 125px;
+
+}
+
+.fandom-title {
+    padding-top: 26px;
+    font-size: 40px;
+    
+}
+
+.fandom-para {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+/*Technology*/
+.technology {
+    height: 1000px;
+    display: flex;
+    padding-top: 100px;
+}
+
+.tech-caption {
+    width: 1500px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.tech-title {
+    text-align: center;
+    font-size: 50px;
+}
+
+.tech-para {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 25px;
+
+}
+
+#tech-photo {
+    width: 1250px;
+}
+
+.ready-cta {
+    background-color: white;
+    height: 200px;
+    text-align: center;
+
+}
+
+.ready-cta-title {
+    font-size: 25px;
+
+}
+
+#scarica-mac-2 {
+    width: 200px;
+    height: 45px;
+    border: none;
+    background-color: rgb(162, 153, 249);
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+/*Footer*/
+footer {
+    background-color: #23272A;
+    height: 500px;
+    padding-top: 100px;
+
+}
+
+.foot-main-title {
+    font-size: 30px;
+    color: #4673CC;
+}
+
+.lenguage {
+    margin-top: 15px;
+    
+}
+
+.lenguage-select {
+    font-size: 15px;
+    color: white;
+}
+
+.foot-prodotto {
+    font-size: 17px;
+    color: #4673CC;
+    margin-bottom: 10px;
+}
+
+#foot-menu-left {
+    color: white;
+    
+}
+
+.sub-footer {
+    margin-top:35px;
+}
+
+.divisor {
+    border-top: 1px solid white;
+    margin-top: 25px;
+}
+
+#scarica-ora-sub-footer {
+    width: 85px;
+    height: 35px;
+    background-color: rgb(111, 111, 203);
+    border: none;
+    border-radius: 20px;
+    margin-left: 200px;
+    color: white;
+    
+}
+
+.right {
+    text-align: right;
+}
