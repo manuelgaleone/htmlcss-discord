@@ -138,3 +138,57 @@ header {
     box-shadow: 0 0 10px black;
 
 }
+
+/*Main*/
+.main-container {
+    padding: 100px;
+}
+
+.main-title {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    line-height: 95%;
+}
+
+.main-para {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.row-spacing {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.square-1 {
+    background-color: aqua;  
+    height: 350px;  
+    width: 400px;
+    
+}
+
+.square-2 {
+    background-color: pink;  
+    height: 350px;  
+    width: 400px;
+    
+}
+
+.square-3 {
+    background-color: blue;  
+    height: 350px;  
+    width: 400px;
+}
+
+.sub-row-spacing {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
