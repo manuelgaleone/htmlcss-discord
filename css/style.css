@@ -87,12 +87,10 @@ header {
 /*Cover*/
 .cover {
     background-image: url(../img/jumbo.png);
-    background-size: cover;
+    background-size: 100%;
     padding-top: 100px;
     margin-top: -55px;
     height: 650px;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .cov-caption {
