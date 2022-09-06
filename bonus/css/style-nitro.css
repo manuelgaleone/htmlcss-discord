@@ -208,3 +208,24 @@ header {
     justify-content: space-around;
 
 }
+
+.square-center {
+    text-align: center;
+    padding: 49px;
+}
+
+.square-title {
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.square-para {
+    padding-top: 15px;
+    color: white;
+}
+
+#square-image {
+    padding-top: 50px;
+
+}
