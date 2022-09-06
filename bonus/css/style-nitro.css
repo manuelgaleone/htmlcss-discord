@@ -12,7 +12,7 @@ body {
 /*Header*/
 header {
     margin:auto;
-    background-color: black;
+    background-color: transparent;
     height: 120px;
     padding-top: 45px;
 }
@@ -90,11 +90,16 @@ header {
 /*Cover*/
 .cover {
     background-image: url(../img/cover-back-def.jpg);
-    height: 600px;
+    height: 750px;
+    margin-top: -125px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 .nitro-1-pad {
-    padding: 150px;
+    padding: 200px;
+    padding-top: 250px;
 }
 
 .nitro-1-caption {
