@@ -310,3 +310,77 @@ header {
 .head-footer-pad {
     padding-bottom: 50px;
 }
+
+/*Footer*/
+footer {
+    background-color: #23272A;
+    height: 500px;
+    padding-top: 100px;
+
+}
+
+.foot-main-title {
+    font-size: 30px;
+    color: #4673CC;
+}
+
+.lenguage {
+    margin-top: 15px;
+    
+}
+
+.lenguage-select {
+    font-size: 15px;
+    color: white;
+}
+
+.foot-prodotto {
+    font-size: 17px;
+    color: #4673CC;
+    margin-bottom: 10px;
+    
+}
+
+#foot-menu-left {
+    color: white;
+    
+}
+
+.sub-footer {
+    margin-top:35px;
+}
+
+.divisor {
+    border-top: 1px solid white;
+    margin-top: 25px;
+}
+
+#scarica-ora-sub-footer {
+    width: 85px;
+    height: 35px;
+    background-color: rgb(111, 111, 203);
+    border: none;
+    border-radius: 20px;
+    margin-left: 200px;
+    color: white;
+    
+}
+
+.right {
+    text-align: right;
+}
+
+.white {
+    color: white;
+    margin-top: 10px;
+    width: 30px;
+}
+
+#foot-menu-left {
+    text-decoration: none;
+
+}
+
+#foot-menu-left:hover {
+    text-decoration: underline;
+}
