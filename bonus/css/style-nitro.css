@@ -1,0 +1,80 @@
+/*Common settings*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Header*/
+header {
+    margin:auto;
+    background-color: black;
+    height: 120px;
+    padding-top: 45px;
+}
+
+#menu {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 17px;
+
+}
+
+#accedi {
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    margin-left: 200px;
+    
+}
+
+/*Rows and Columns*/
+.row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+
+}
+
+.col-1 {
+    width: calc(100% / 12 * 1);
+
+}
+
+.col-2 {
+    width: calc(100% / 12 * 2);
+
+}
+
+.col-3 {
+    width: calc(100% / 12 * 3);
+
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
+
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
+
+}
+
+.col-9 {
+    width: calc(100% / 12 * 9);
+
+}
