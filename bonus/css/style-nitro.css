@@ -89,8 +89,8 @@ header {
 
 /*Cover*/
 .cover {
-    background-image: url(../img/cover-back.jpg);
-    height: 800px;
+    background-image: url(../img/cover-back-def.jpg);
+    height: 600px;
 }
 
 .nitro-1-pad {
@@ -127,4 +127,9 @@ header {
     border-radius: 30px;
     font-size: 18px;
     vertical-align: middle;
+}
+
+#usd-year:hover, #usd-month:hover {
+    box-shadow: 0 0 10px black;
+
 }
