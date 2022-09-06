@@ -161,34 +161,50 @@ header {
     padding-top: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 
-.square-1 {
-    background-color: aqua;  
-    height: 350px;  
-    width: 400px;
-    
+.gradient-green {
+    background:linear-gradient(142.53deg,#00a295,#26e8f4 98.75%),#3dcda7 ;
+
 }
 
-.square-2 {
-    background-color: pink;  
-    height: 350px;  
-    width: 400px;
-    
+.gradient-blue {
+    background:linear-gradient(321.82deg,#21f2ff,#4181ff 59.22%,#4475ff 98.02%),#7196ff;
+
 }
 
-.square-3 {
-    background-color: blue;  
+.gradient-violet {
+    background: linear-gradient(138.46deg,#3e70ff 1.48%,#9a98ff 98.75%),#ff73fa;
+
+}
+
+.gradient-blue-violet {
+    background: linear-gradient(141.85deg,#7e7bff,#ff73fa);
+
+}
+
+.gradient-rose {
+    background: linear-gradient(141.48deg,#f837ee 1.35%,#ffcd4b);
+
+}
+
+.gradient-orange {
+    background: linear-gradient(321.73deg,#ffcd4b -1.09%,#ee6315 100.65%);
+
+}
+
+.square-size {
     height: 350px;  
     width: 400px;
+    border-radius: 30px;
 }
 
 .sub-row-spacing {
     padding-top: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 
 }
