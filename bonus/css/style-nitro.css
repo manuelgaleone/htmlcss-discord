@@ -227,5 +227,10 @@ header {
 
 #square-image {
     padding-top: 50px;
+    
+}
 
+#square-image-fix {
+    padding-top: 30px;
+    width: 180px;
 }
